@@ -38,3 +38,18 @@ variable "ansible_inventory_path" {
   description = "Local path to the Ansible inventory file."
   type        = string
 }
+
+variable "desired_capacity" {
+  description = "The desired number of EC2 instances in the Autoscaling Group."
+  type        = number
+}
+
+variable "max_size" {
+  description = "The maximum number of EC2 instances in the Autoscaling Group."
+  type        = number
+}
+
+variable "min_size" {
+  description = "The minimum number of EC2 instances in the Autoscaling Group."
+  type        = number
+}
