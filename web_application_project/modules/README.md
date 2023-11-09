@@ -9,12 +9,10 @@ public_subnet_cidr_block: CIDR block for the public subnet.
 private_subnet_cidr_block: CIDR block for the private subnet.
 
 EC2 Instances:
-
 ami_id: The ID of the Amazon Machine Image (AMI) used for the instances.
 instance_type: The type of EC2 instance to launch.
 
 Load Balancer and Autoscaling:
-
 web_server_port: Port number on which the web server listens for incoming traffic.
 desired_capacity: Desired number of EC2 instances in the Autoscaling Group.
 min_size: Minimum number of EC2 instances in the Autoscaling Group.
@@ -23,14 +21,16 @@ max_size: Maximum number of EC2 instances in the Autoscaling Group.
 
 **Inputs**
 
-VPC Configuration
+VPC Configuration:
 vpc_cidr_block: CIDR block for the VPC.
 public_subnet_cidr_block: CIDR block for the public subnet.
 private_subnet_cidr_block: CIDR block for the private subnet.
-EC2 Instance Configuration
+
+EC2 Instance Configuration:
 ami_id: The ID of the Amazon Machine Image (AMI) used for the instances.
 instance_type: The type of EC2 instance to launch.
-Load Balancer and Autoscaling Configuration
+
+Load Balancer and Autoscaling Configuration:
 web_server_port: Port number on which the web server listens for incoming traffic.
 desired_capacity: Desired number of EC2 instances in the Autoscaling Group.
 min_size: Minimum number of EC2 instances in the Autoscaling Group.
