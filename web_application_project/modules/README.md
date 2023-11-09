@@ -4,12 +4,16 @@ This Terraform module deploys a web application in an AWS environment, comprisin
 **Components**
 
 VPC with Public and Private Subnets:
-vpc_cidr_block: CIDR block for the VPC.
+vpc_cidr_block: CIDR block for the VPC.   
 public_subnet_cidr_block: CIDR block for the public subnet.
 private_subnet_cidr_block: CIDR block for the private subnet.
 
 EC2 Instances:
-ami_id: The ID of the Amazon Machine Image (AMI) used for the instances.
+<<<<<<< HEAD
+ami_id: The ID of the Amazon Machine Image(AMI) used for the instances.
+=======
+ami_id: The ID of the Amazon Machine Image(AMI) used for the instances.
+>>>>>>> 337d5ab (Second commit)
 instance_type: The type of EC2 instance to launch.
 
 Load Balancer and Autoscaling:
