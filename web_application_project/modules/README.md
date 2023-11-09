@@ -9,11 +9,7 @@ public_subnet_cidr_block: CIDR block for the public subnet.
 private_subnet_cidr_block: CIDR block for the private subnet.
 
 EC2 Instances:
-<<<<<<< HEAD
 ami_id: The ID of the Amazon Machine Image(AMI) used for the instances.
-=======
-ami_id: The ID of the Amazon Machine Image(AMI) used for the instances.
->>>>>>> 337d5ab (Second commit)
 instance_type: The type of EC2 instance to launch.
 
 Load Balancer and Autoscaling:
